@@ -23,5 +23,3 @@ pipeline {
         }
     }
 }
-
-#this is a demo3 as recording failed
