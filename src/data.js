@@ -2,8 +2,8 @@ export const sliderItems = [
   {
     id: "1",
     img: "assets/braclet/main.jfif",
-    title: "Day-3 | Deployment in Kubernetes",
-    desc: "Kubernetes",
+    title: "Day-4 | Automation of Deployment using Bash",
+    desc: "Bash",
     bg: "yellow",
   },
   {
