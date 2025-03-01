@@ -3,7 +3,7 @@ export const sliderItems = [
     id: "1",
     img: "assets/braclet/main.jfif",
     title: "Day-9 | Automation of Commit IDs!",
-    desc: "Helm",
+    desc: "Helm-Jenkins",
     bg: "Green",
   },
   {
