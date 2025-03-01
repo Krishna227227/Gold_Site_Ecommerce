@@ -2,9 +2,9 @@ export const sliderItems = [
   {
     id: "1",
     img: "assets/braclet/main.jfif",
-    title: "Day-4 | Automation of Deployment using Bash",
+    title: "Day-6 | Automation of Deployment using Jenkins",
     desc: "Bash",
-    bg: "Blue",
+    bg: "Yellow",
   },
   {
     id: "2",
