@@ -21,5 +21,23 @@ pipeline {
                 }
             }
         }
+        
+        stage('SCM Checkout') {
+            steps{
+           git branch: 'main', url: 'https://github.com/Krishna227227/Gold_Site_Ecommerce.git'
+            }
+        }
+        // run sonarqube test
+        stage('Run Sonarqube') {
+            environment {
+                scannerHome = tool 'sonar';
+            }
+            steps {
+              withSonarQubeEnv(credentialsId: 'sonar-token', installationName: 'sonar') {
+                sh "${scannerHome}/bin/sonar-scanner"
+              }
+            }
+        }
+    
     }
 }
